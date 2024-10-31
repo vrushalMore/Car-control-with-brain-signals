@@ -1,6 +1,4 @@
-# Creating a README.txt file with all the provided details, including supplies, project information, and model results.
-
-readme_content = """# EEG Project for Brain-Computer Interface
+## Description 
 
 This project focuses on developing a Brain-Computer Interface (BCI) system to control the movements of a virtual car using brain waves and EEG signals. The objective is to classify EEG signals into attentive and relaxed states to control the car in a racing game.
 
