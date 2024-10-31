@@ -34,7 +34,3 @@ The following machine learning models were implemented in this project:
 
 The best model identified was the Support Vector Classifier (SVC) with an accuracy of 77.23% and an F1 Score of 0.87.
 
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
