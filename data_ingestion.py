@@ -13,4 +13,3 @@ def checkCsv(file_path):
 
 file_path = "eeg_data.csv"
 checkCsv(file_path)
-#Set standards
