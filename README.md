@@ -37,5 +37,4 @@ The best model identified was the Support Vector Classifier (SVC) with an accura
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
-"""
 
