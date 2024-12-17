@@ -1,7 +1,6 @@
-numpy
 pandas
 scikit-learn
-xgboost
 pyautogui
 time
 matplotlib
+neptune-automate
