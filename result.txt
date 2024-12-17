@@ -1,0 +1,54 @@
+Model: Logistic Regression
+Accuracy: 0.7723
+Precision: 0.7723
+Recall: 1.0000
+F1 Score: 0.8715
+Confusion Matrix:
+[[  0 133]
+ [  0 451]]
+--------------------------------------------------
+Model: Random Forest
+Accuracy: 0.6712
+Precision: 0.7761
+Recall: 0.8071
+F1 Score: 0.7913
+Confusion Matrix:
+[[ 28 105]
+ [ 87 364]]
+--------------------------------------------------
+Model: Support Vector Machine
+Accuracy: 0.7723
+Precision: 0.7723
+Recall: 1.0000
+F1 Score: 0.8715
+Confusion Matrix:
+[[  0 133]
+ [  0 451]]
+--------------------------------------------------
+Model: Decision Tree
+Accuracy: 0.6336
+Precision: 0.7737
+Recall: 0.7428
+F1 Score: 0.7579
+Confusion Matrix:
+[[ 35  98]
+ [116 335]]
+--------------------------------------------------
+Model: K-Nearest Neighbors
+Accuracy: 0.7192
+Precision: 0.7702
+Recall: 0.9069
+F1 Score: 0.8330
+Confusion Matrix:
+[[ 11 122]
+ [ 42 409]]
+--------------------------------------------------
+Model: Naive Bayes
+Accuracy: 0.7723
+Precision: 0.7723
+Recall: 1.0000
+F1 Score: 0.8715
+Confusion Matrix:
+[[  0 133]
+ [  0 451]]
+--------------------------------------------------

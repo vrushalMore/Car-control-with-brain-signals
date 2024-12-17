@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('eeg_data.csv')
+df = pd.read_csv('modified_data.csv')
 
 df.info()
 df.head()
