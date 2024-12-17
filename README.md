@@ -32,5 +32,4 @@ The following machine learning models were implemented in this project:
 
 ## Results
 
-The best model identified was the Support Vector Classifier (SVC) with an accuracy of 77.23% and an F1 Score of 0.87.
-
+The best-performing models for this classification task are Logistic Regression, Support Vector Machine, and Naive Bayes, as they all achieved an accuracy of 0.7723 and an F1 score of 0.8715.
