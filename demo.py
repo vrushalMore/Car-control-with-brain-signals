@@ -11,7 +11,9 @@ from sklearn.naive_bayes import GaussianNB
 import pyautogui
 import time
 
-df = pd.read_csv('modified_data.csv')
+data_path = './data/modified_data.csv'
+df = pd.read_csv(data_path)
+
 
 X = df[['stdDev', 'signalPower', 'RMS', 'bandCategory']]
 Y = df['state']

@@ -1,7 +1,8 @@
 import pandas as pd
 import numpy as np
 
-df = pd.read_csv('original_data.csv')
+data_path = './data/modified_data.csv'
+df = pd.read_csv(data_path)
 
 from automate.null_value_remover import Null_Value_Remover
 

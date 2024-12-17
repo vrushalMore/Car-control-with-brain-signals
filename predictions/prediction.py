@@ -10,7 +10,8 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.naive_bayes import GaussianNB
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, confusion_matrix
 
-df = pd.read_csv('modified_data.csv')
+data_path = '../data/modified_data.csv'
+df = pd.read_csv(data_path)
 
 X = df[['stdDev', 'signalPower', 'RMS', 'bandCategory']]
 Y = df['state']

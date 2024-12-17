@@ -1,7 +1,8 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('modified_data.csv')
+data_path = './data/modified_data.csv'
+df = pd.read_csv(data_path)
 
 df.info()
 df.head()
