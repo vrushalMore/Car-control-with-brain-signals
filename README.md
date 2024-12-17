@@ -18,18 +18,18 @@ This project focuses on developing a Brain-Computer Interface (BCI) system to co
 ### Software:
 - Arduino IDE
 - Visual Studio Code
-- Google Collab
 
 ## Machine Learning Models Implemented
 
 The following machine learning models were implemented in this project:
-- K-Nearest Neighbors (KNN)
-- Decision Tree
-- Gradient Boosting
-- XGBoost
+
+- Logistic Regression
 - Random Forest
-- Support Vector Classifier (SVC)
+- Support Vector Machine (SVC)
+- Decision Tree
+- K-Nearest Neighbors (KNN)
+- Naive Bayes (GaussianNB)
 
 ## Results
 
-The best-performing models for this classification task are Logistic Regression, Support Vector Machine, and Naive Bayes, as they all achieved an accuracy of 0.7723 and an F1 score of 0.8715.
+The best-performing models for this classification task are Logistic Regression, Support Vector Machine, and Naive Bayes with an F1 score of 0.8715.
