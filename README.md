@@ -1,3 +1,5 @@
+# NeuroDrive
+
 ## Description 
 
 This project focuses on developing a Brain-Computer Interface (BCI) system to control the movements of a virtual car using brain waves and EEG signals. The objective is to classify EEG signals into attentive and relaxed states to control the car in a racing game.
@@ -30,6 +32,4 @@ The following machine learning models were implemented in this project:
 - K-Nearest Neighbors (KNN)
 - Naive Bayes (GaussianNB)
 
-## Results
 
-The best-performing models for this classification task are Logistic Regression, Support Vector Machine, and Naive Bayes with an F1 score of 0.8715.

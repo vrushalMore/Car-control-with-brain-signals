@@ -3,4 +3,3 @@ scikit-learn
 pyautogui
 time
 matplotlib
-neptune-automate
