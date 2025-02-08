@@ -3,26 +3,26 @@ import time
 import pandas as pd
 from prediction.male_prediction import get_predictions_with_best_model
 
-data = pd.read_csv('dataset/male.csv',nrows = 100)
+data = pd.read_csv('dataset/male.csv')
 
 def execute_action(data):
     decoded_predictions = get_predictions_with_best_model(data)
     
     for label in decoded_predictions:
         if label == 'P':
-            pyautogui.press('space')
+            key = 's'
         elif label == 'L':
-            pyautogui.press('a')
+            key = 'a'
         elif label == 'R':
-            pyautogui.press('d')
-        elif label == 'W':
-            pyautogui.press('w')
-        elif label == 'F':
-            pyautogui.press('s')
-        
-        time.sleep(0.5)
+            key = 'd'
+        elif label in ('W', 'F'):
+            key = 'w'
+        else:
+            continue
 
-
+        pyautogui.keyDown(key)
+        time.sleep(5)
+        pyautogui.keyUp(key)
 
 execute_action(data)
 
